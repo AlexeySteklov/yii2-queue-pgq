@@ -1,0 +1,22 @@
+{
+    "name": "alexeysteklov/yii2-queue-pgq",
+    "description": "Драйвер PGQ для очереди yii2-queue",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","pgq","queue"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Steklov",
+            "email": "steklovalexey@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-queue": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "alexeysteklov\\yii\\queue\\pgq": "src"
+        }
+    }
+}
